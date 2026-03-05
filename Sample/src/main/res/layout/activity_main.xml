@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F0FF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="60dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="90dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="16dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/capel_logo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_chip_light"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp">
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:background="@drawable/bg_dot_green" />
+
+                <TextView
+                    android:id="@+id/tv_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="No page selected"
+                    android:textColor="#5B21B6"
+                    android:textColorHint="#C4B5FD"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <capel.bottomnavigation.CapelBottomNavigation
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_gravity="bottom"
+            app:capel_backgroundBottomColor="#FFFFFF"
+            app:capel_backgroundColor="#EF4444"
+            app:capel_circleColor="#7C3AED"
+            app:capel_defaultIconColor="#C4B5FD"
+            app:capel_fontFamily="fonts/SourceSansPro-Regular.ttf"
+            app:capel_hasAnimation="true"
+            app:capel_rippleColor="#33A855F7"
+            app:capel_selectedIconColor="#FFFFFF"
+            app:capel_shadowColor="#1A7C3AED"
+            app:capel_textColor="#FFFFFF" />
+
+    </FrameLayout>
+
+</layout>
