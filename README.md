@@ -6,6 +6,7 @@ It is lightweight, customizable, and easy to integrate with **Fragments, ViewBin
 
 ---
 
+
 ## 📱 Preview
 
 ![Capel Bottom Navigation Demo](https://raw.githubusercontent.com/CapelDev/capel-bottom-navigation/master/resources/Preview.gif)
