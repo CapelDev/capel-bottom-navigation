@@ -86,7 +86,7 @@ Initialize the Bottom Navigation using **ViewBinding/DataBinding**.
 val bottomNavigation = binding.bottomNavigation
 
 bottomNavigation.add(CapelBottomNavigation.Model(1, R.drawable.home_icon))
-bottomNavigation.add(CapelBottomNavigation.Model(2, R.drawable.home_icon))
+bottomNavigation.add(CapelBottomNavigation.Model(2, R.drawable.category_icon))
 ```
 
 Set the **default selected tab**.
@@ -132,7 +132,7 @@ bottomNavigation.setOnClickMenuListener {
 val bottomNavigation = binding.bottomNavigation
 
 bottomNavigation.add(CapelBottomNavigation.Model(1, R.drawable.home_icon))
-bottomNavigation.add(CapelBottomNavigation.Model(2, R.drawable.home_icon))
+bottomNavigation.add(CapelBottomNavigation.Model(2, R.drawable.category_icon))
 
 bottomNavigation.show(1, true)
 
